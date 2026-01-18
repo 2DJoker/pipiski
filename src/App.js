@@ -120,7 +120,7 @@ const gallery = [
 ];
 
 // Фото для героя
-const HERO_BG_IMAGE = "/images/hero/main-bg.jpg";
+const HERO_BG_IMAGE = "/step.JPG";
 
 /* --- АНИМАЦИИ ---------------------------------------------------------------- */
 
@@ -254,7 +254,7 @@ const WeddingHousesLanding = () => {
           <div className="absolute inset-0 opacity-60">
             <div className="relative h-full w-full">
               <motion.div
-                initial={{ scale: 1.1, opacity: 0 }}
+                initial={{ scale: 3, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 1.4, ease: "easeOut" }}
                 className="h-full w-full"
